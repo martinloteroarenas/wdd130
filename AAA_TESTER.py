@@ -1,3 +1,2 @@
-n = float(input("Please enter a number: "))
-r = round(n, 2)
-print(r)
+value = 1 / 4 * 3
+print(value)
