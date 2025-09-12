@@ -1,6 +1,42 @@
-nav {background-color: darkblue;padding: 10px;}
-nav a {color: white;display: block;padding: 20px;}
-h1 {color: darkblue;}
-img {width: 150px;height: auto;border: 1px solid black;padding: 2px;box-shadow: 0 0 30px rgb(227, 137, 255);}
-p {padding: 10px;}
-body {background-color: rgb(148, 165, 172);}
+nav {background-color: rgb(72, 72, 192);
+    padding: 10px;}
+
+nav a {color: white;
+    display: block;
+    padding: 20px;}
+
+h1 {color:rgb(255, 253, 159);}
+
+main img {width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(227, 137, 255);}
+
+p {padding: 0px;
+    color: rgb(255, 255, 255);
+    max-width: 840px;}
+
+body {background-color: rgb(57, 0, 68);}
+
+main{max-width: 840px;}
+
+aside{
+    width:20rem ;
+    margin:1rem ;
+    border:1px solid rgba(0 0 0, 0.2);
+    padding:1rem ;
+    background-color:#000000 ;
+    color:#333 ;
+    text-align: center;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+
+footer{
+    margin-top:15px ;
+    border-top:1px solid #ffffff ;
+    text-align: center;
+}
