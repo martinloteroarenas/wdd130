@@ -13,6 +13,8 @@ main img {width: 150px;
     padding: 2px;
     box-shadow: 0 0 30px rgb(227, 137, 255);}
 
+h2{ color: #fff;}
+
 p {padding: 0px;
     color: rgb(255, 255, 255);
     max-width: 600px;}
@@ -40,4 +42,3 @@ footer{
     border-top:1px solid #ffffff ;
     text-align: center;
 }
-h2{ color: #fff;}
