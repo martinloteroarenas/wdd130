@@ -1,11 +1,19 @@
+
+:root{
+    --heading-text-color: #fff;
+    --heading-font: 'montserrat';
+    --title-text-color: rgb(255, 253, 159);
+}
+
 nav {background-color: rgb(72, 72, 192);
     padding: 1px;}
 
-nav a {color: white;
+nav a {
+    color: var(--heading-text-color);
     display: block;
     padding: 20px;}
 
-h1 {color:rgb(255, 253, 159);}
+h1 {color:var(--title-text-color);}
 
 main img {width: 150px;
     height: auto;
@@ -15,7 +23,7 @@ main img {width: 150px;
 
 
 p {padding: 0px;
-    color: rgb(255, 255, 255);
+    color: var(--heading-text-color);
     max-width: 600px;}
 
 body {background-color: rgb(57, 0, 68);}
@@ -28,11 +36,11 @@ aside{
     border:1px solid rgb(228 228 228 / 0.3);
     padding:1rem ;
     background-color:#000000 ;
-    color:#ffffff ;
+    color: var(--heading-text-color);
     text-align: center;
 }
 
-h2{ color: rgb(255, 253, 159);}
+h2{ color: var(--title-text-color);}
 
 aside img{
     width: 200px;
@@ -42,5 +50,6 @@ aside img{
 footer{
     margin-top:15px ;
     border-top:1px solid #ffffff ;
+    color: var(--heading-text-color);
     text-align: center;
 }
