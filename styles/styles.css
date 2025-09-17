@@ -29,7 +29,8 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px rgb(227, 137, 255);
+    /*box-shadow: 0 0 30px rgb(227, 137, 255);*/
+    box-shadow: 0 0 30px rgb(30, 255, 0);
     float: right;
     margin: 0 0 1rem 1rem;
 }
