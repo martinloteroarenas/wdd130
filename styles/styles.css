@@ -15,7 +15,7 @@ nav {background-color: steelblue;
 nav a {
     color: var(--heading-text-color);
     display: block;
-    padding: 30px;}
+    padding: 10px;}
 
 h1 {color:var(--title-text-color);
 padding: 0.5rem;
