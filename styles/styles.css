@@ -6,21 +6,26 @@
 
 :root{
     --heading-text-color: #fff;
-    --heading-font: 'montserrat';
     --title-text-color: rgb(255, 253, 159);
 }
 
-nav {background-color: rgb(72, 72, 192);
-    padding: 1px;}
+nav {background-color: steelblue;
+    padding: 10px;}
 
 nav a {
     color: var(--heading-text-color);
     display: block;
-    padding: 1px;}
+    padding: 10px;}
 
-h1 {color:var(--title-text-color);}
+h1 {color:var(--title-text-color);
+padding: 0.5rem;
+}
 
-main img {width: 150px;
+main{max-width: 640px;        
+}
+
+main img {
+    width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -35,11 +40,6 @@ p {padding: 0px;
     max-width: 650px;}
 
 body {background-color: rgb(57, 0, 68);}
-
-main{max-width: 840px;
-    padding: 2px;        
-}
-
 
 aside{
     width:20rem ;
