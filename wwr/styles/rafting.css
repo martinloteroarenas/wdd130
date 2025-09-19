@@ -23,7 +23,7 @@ body {
 }
 
 header, main, footer {
-    width: 840 0;
+    width: 840px;
     margin: 0 auto;
 }
 
@@ -67,18 +67,18 @@ h1 {
 
 .hero article {
     position: absolute;
-    top: 70px;
+    top: 330px;
     width: 80%;
-    left: 170px;
+    left: 67px;
     padding: 16px;
     text-align: left;
-    font-size: 30px;
+    font-size: 16px;
     background-color: var(--accent2-color);
 }
 
 .hero article img {
     float: right;
-    width: 300px;
+    width: 125px;
 }
 
 h2 {
