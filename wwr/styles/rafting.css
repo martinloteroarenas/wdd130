@@ -23,7 +23,7 @@ body {
 }
 
 header, main, footer {
-    width: 840;
+    width: 840 auto;
     margin: 0 auto;
 }
 
