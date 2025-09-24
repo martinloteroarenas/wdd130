@@ -24,7 +24,7 @@ nav a {
 }
 h1 {color:var(--title-text-color);
 padding: 0.5rem;
-border-bottom: 1rem;
+border-bottom: 1px solid #fff;
 }
 main img {
     width: 150px;
@@ -33,9 +33,9 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px rgb(227, 137, 255);
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem 1rem;
 }
-p {padding: 0px;
+p {padding: 4px;
     color: var(--heading-text-color);
     max-width: 650px;}
 
