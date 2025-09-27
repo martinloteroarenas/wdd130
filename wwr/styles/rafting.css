@@ -8,8 +8,30 @@
 }
 
 header {
+    height: 230px;
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    align-items: center;
+}
+nav {
+    
+}
+header nav ul{
+    background-color: #fff;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+li {
+    padding: 20px;
+    border: 1px solid #000;
+    align-items: center;
+}
+header img {
+    padding: 20px;
 }
 
 * {
@@ -37,7 +59,23 @@ h1, h2 {
 
 nav, p, section, article {
     margin: 16px;
-    padding: 8px;
+    padding: 0px;
+}
+
+section something {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+figure{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 0.3fr;
+    margin-top: 3px;
+}
+
+figure img {
+    width: 158px;
 }
 
 .socialmedia a {
