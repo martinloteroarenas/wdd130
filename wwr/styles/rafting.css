@@ -62,24 +62,35 @@ nav, p, section, article {
     padding: 0px;
 }
 
-section something {
+section div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
 }
-figure{
+.images div {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr 0.3fr;
     margin-top: 3px;
 }
 
 figure img {
     width: 158px;
+  
+}
+
+footer p {
+
 }
 
 .socialmedia a {
     text-decoration: none;
+    width:;
+}
+
+.socialmedia a img{
+    width: 80px;
+    display: flex;
+    justify-content: right;
 }
 
 .hero {
