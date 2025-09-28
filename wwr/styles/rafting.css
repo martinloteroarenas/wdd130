@@ -89,10 +89,6 @@ figure img {
 .socialmedia a img{
     width: 50px;
 }
-.socialmedia a p{
-    align-items: left;
-}
-
 .hero {
     position: relative;
 }
