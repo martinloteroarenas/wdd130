@@ -26,9 +26,10 @@ header nav ul{
     grid-template-columns: repeat(4, 1fr);
 }
 li {
+    display: flex;
     padding: 20px;
     border: 1px solid #000;
-    align-items: center;
+    justify-content: space-around;
 }
 header img {
     padding: 20px;
@@ -78,19 +79,18 @@ figure img {
   
 }
 
-footer p {
-
-}
-
-.socialmedia a {
-    text-decoration: none;
-    width:;
-}
-
-.socialmedia a img{
-    width: 80px;
+.socialmedia {
+    display: grid;
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+.socialmedia a img{
+    width: 50px;
+}
+.socialmedia a p{
+    align-items: left;
 }
 
 .hero {
