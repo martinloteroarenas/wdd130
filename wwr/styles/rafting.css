@@ -74,6 +74,7 @@ figure img {
     justify-content: space-around;
     background-color: var(--primary-color);
     padding: 10px;
+    margin: 16px 0;
 }
 .socialmedia a img{
     width: 50px;
@@ -183,8 +184,6 @@ button{
     border: 1px solid #000;
 }
 /*index home page below*/
-
-
 .newsletter_trips{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -196,24 +195,20 @@ button{
     align-items: center;
     padding: 10px;
 }
-
 .form_home_item{
     padding: 8px;
     font-size:large;
 }
-
 .signup{
     padding: 0;
     margin: 0 0 14px 0;
     text-align: center;
     font-size: x-large;
 }
-
 .home_container{
     margin: 6px;
     background-color:  var(--accent2-color);
 }
-
 .click_me{
     text-decoration: none;
     font-family: 'knewave', Arial, Helvetica, sans-serif;
@@ -227,7 +222,6 @@ button{
     justify-content: center;
     margin: 40px 50px; 
 }
-
 .home_purp_offer{
     margin: 0px 5px;
     display: grid;
@@ -239,16 +233,35 @@ button{
     top: 208px;
 
 }
-
 .offerings{
     padding-bottom: 300px;
     max-height: 450px;
     text-align:center;
 }
-
 .home_paragraph{
     text-align: left;
 }
 .home_purp_offer_div{
     margin: 0 4px;
+}
+/*trips page below*/
+.about_trips{
+    position: relative;
+    opacity: 100%;
+    background-color:#fff;
+    color: var(--accent1-color);
+    padding: 10px 0px 20px 0px;
+}
+.trips_contactus{
+    text-decoration: none;
+    font-family: 'knewave', Arial, Helvetica, sans-serif;
+    color:var(--accent1-color);
+    background-color:var(--accent2-color);
+    font-size: 2.5rem;
+    border: none;
+    border-radius: 22px;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
