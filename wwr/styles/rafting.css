@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #aed6ae;
+    --primary-color: #c7eec7;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #f5d688;
     --heading-font: 'Times New Roman';
     --body-font: Arial;
 }
-
+/*about us page below*/
 header {
     height: 230px;
     background-color: var(--primary-color);
@@ -31,7 +31,6 @@ li {
 header img {
     padding: 20px;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -41,12 +40,10 @@ body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
-
 header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
-
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -54,12 +51,10 @@ h1, h2 {
     background-color: var(--accent1-color);
     text-align: center;
 }
-
 nav, p, section, article {
     margin: 16px;
     padding: 0px;
 }
-
 .about-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -70,12 +65,9 @@ nav, p, section, article {
     grid-template-columns: repeat(5, 1fr);
     margin-top: 3px;
 }
-
 figure img {
     width: 158px;
-  
 }
-
 .socialmedia {
     display: grid;
     display: flex;
@@ -89,24 +81,21 @@ figure img {
 .hero {
     position: relative;
 }
-
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-
 h1 {
     position: absolute;
     top: 10px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.77;
+    opacity: 0.85;
     background-color: var(--accent1-color);
     color: #fff;
 }
-
 .hero article {
     position: absolute;
     top: 330px;
@@ -117,16 +106,14 @@ h1 {
     font-size: 16px;
     background-color: var(--accent2-color);
 }
-
 .hero article img {
     float: right;
     width: 125px;
 }
-
 h2 {
     padding: 10px;
 }
-
+/*contact us page below*/
 .info {
     margin-top: 10px;
     display: flex;
@@ -154,11 +141,9 @@ h2 {
     display: flex;
     justify-content: space-around;
 }
-
 li figure figcaption{
     padding-left: 20px;
 }
-
 .employees-images{
     border: 1px solid #000;
 }
@@ -166,18 +151,15 @@ iframe{
     border-top: 30px;
     padding: 20px;
 }
-
 form{
     padding: 30px;
 }
-
 .form-options{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 12px;
     margin-top: 10px;
 }
-
 .form-message{
     display: grid;
     grid-template-rows:0.3fr 1fr ;
@@ -188,11 +170,9 @@ form{
     grid-template-columns: 1fr 1fr;
     padding: 12px;
 }
-
 .checkbox{
     padding: 12px;
 }
-
 button{
     width: 300px;
     padding: 10px;
@@ -202,4 +182,73 @@ button{
     border-radius: 10px;
     border: 1px solid #000;
 }
+/*index home page below*/
 
+
+.newsletter_trips{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 6px 0px;
+}
+.newsletter_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.form_home_item{
+    padding: 8px;
+    font-size:large;
+}
+
+.signup{
+    padding: 0;
+    margin: 0 0 14px 0;
+    text-align: center;
+    font-size: x-large;
+}
+
+.home_container{
+    margin: 6px;
+    background-color:  var(--accent2-color);
+}
+
+.click_me{
+    text-decoration: none;
+    font-family: 'knewave', Arial, Helvetica, sans-serif;
+    color: #264653;
+    background-color: #fff;
+    padding: 0px 20px;
+    font-size: 3rem;
+    border: none;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 50px; 
+}
+
+.home_purp_offer{
+    margin: 0px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+.purp_offer_img{
+    position: absolute;
+    top: 208px;
+
+}
+
+.offerings{
+    padding-bottom: 300px;
+    max-height: 450px;
+    text-align:center;
+}
+
+.home_paragraph{
+    text-align: left;
+}
+.home_purp_offer_div{
+    margin: 0 4px;
+}
