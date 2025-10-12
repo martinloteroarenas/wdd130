@@ -255,13 +255,95 @@ button{
 .trips_contactus{
     text-decoration: none;
     font-family: 'knewave', Arial, Helvetica, sans-serif;
-    color:var(--accent1-color);
-    background-color:var(--accent2-color);
+    color:var(--primary-color);
+    background-color:var(--accent1-color);
     font-size: 2.5rem;
-    border: none;
+    border: 4px solid var(--primary-color);
     border-radius: 22px;
     margin: 10px;
     padding: 0;
     display: flex;
     justify-content: center;
+}
+.trip_description{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    font-family: var(--heading-font);
+}
+.trip_title{
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+}
+.trip_text1{
+    margin: 0px 16px 0px 6px;
+    text-align: right;
+    max-width: 220px;
+    font-size: 1.1rem;
+}
+.trip_text2{
+    margin: 0 10px;
+    text-align: center;
+    max-width: 220px;
+    font-size: 1.1rem;
+
+}
+.trip_text3{
+    margin: 0 6px 0 10px;
+    text-align: left;
+    max-width: 220px;
+    font-size: 1.1rem;
+
+}
+.trip_description img{
+    margin:10px 10px;
+}
+.div_trip{
+    background-color: var(--accent2-color);
+    padding: 10px;
+    margin: 4px;
+}
+.cont_table{
+    display: flex;
+    justify-content: center;
+}
+table {
+  border: 1px solid var(--accent1-color);
+  font-family: var(--body-font);
+  font-size: 1.4rem;
+}
+
+caption {
+  caption-side: top;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: var(--primary-color);
+}
+
+th,
+td {
+  border: 1px solid var(--accent1-color);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: #fff;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
 }
