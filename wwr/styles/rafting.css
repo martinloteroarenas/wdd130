@@ -228,9 +228,10 @@ button{
     grid-template-columns: 1fr 1fr;
     position: relative;
 }
-.purp_offer_img{
-    position: absolute;
-    top: 208px;
+.offerings img{
+    position: relative;
+    top: 0px;
+    left: 0px;
 
 }
 .offerings{
@@ -239,7 +240,7 @@ button{
     text-align:center;
 }
 .home_paragraph{
-    text-align: left;
+    text-align: right;
 }
 .home_purp_offer_div{
     margin: 0 4px;
@@ -315,7 +316,6 @@ table {
   font-family: var(--body-font);
   font-size: 1.4rem;
 }
-
 caption {
   caption-side: top;
   padding: 10px;
@@ -323,24 +323,19 @@ caption {
   background-color: #fff;
   color: #000;
 }
-thead,
-tfoot {
+thead, tfoot {
   background-color: var(--primary-color);
 }
-
-th,
-td {
+th, td {
   border: 1px solid #fff;
   padding: 8px 10px;
 }
-
 td:last-of-type {
   text-align: center;
 }
 tfoot th {
   text-align: right;
 }
-
 tfoot td {
   font-weight: bold;
 }
