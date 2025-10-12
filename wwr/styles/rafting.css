@@ -212,7 +212,7 @@ button{
 .click_me{
     text-decoration: none;
     font-family: 'knewave', Arial, Helvetica, sans-serif;
-    color: #264653;
+    color:var(--accent1-color);
     background-color: #fff;
     padding: 0px 20px;
     font-size: 3rem;
@@ -311,7 +311,7 @@ button{
 }
 table {
   background-color: var(--accent1-color);
-  border: 1px solid var(--accent1-color);
+  border: none;
   font-family: var(--body-font);
   font-size: 1.4rem;
 }
@@ -320,8 +320,9 @@ caption {
   caption-side: top;
   padding: 10px;
   font-weight: bold;
+  background-color: #fff;
+  color: #000;
 }
-
 thead,
 tfoot {
   background-color: var(--primary-color);
